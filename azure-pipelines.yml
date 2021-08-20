@@ -50,7 +50,6 @@ stages:
       environment: 'spike.default'
     variables:
     - group: Release
-    strategy:
     steps:
     - download: current
       artifact: manifests
